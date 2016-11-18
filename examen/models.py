@@ -5,7 +5,7 @@ class libro(models.Model):
 
     isbn = models.CharField(max_length=13)
     titulo  =   models.CharField(max_length=60)
-    portada = models.CharField(max_length=13)
+    #portada = models.ImageField()
     autor  =   models.CharField(max_length=100)
     editoria  =   models.CharField(max_length=30)
     pais  =   models.CharField(max_length=50)
