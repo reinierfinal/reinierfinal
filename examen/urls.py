@@ -8,5 +8,6 @@ from .import views
 
 urlpatterns = [
     url(r'^$', views.lista),
+    url(r'^libro/nuevo/$', views.libn, name='libn'),
     #url(r'^/prestamo/nuevo/$', views.prestamo_nuevo, name='prestamo_nuevo'),
     ]
